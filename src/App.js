@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css";
-import Navbar from "./components/Navbar";
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Service from "./routes/Service";
@@ -16,8 +15,6 @@ function App() {
         <Route path="/service" element={<Service/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
-
-      <Navbar/>
     </div>
   );
 }
